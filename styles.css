@@ -4,11 +4,86 @@
 /* This ruleset defines the styling for the entire body of your HTML document. */
 body {
     /* Change this background-color. */
-    background-color: white;
+    background-color: lightgreen;
+    /* background-color: rgb(109, 175, 101); */
+    font-family: Arial;
+}
+h1 {
+    color: #008A61;
+    letter-spacing: 3pt;
+}
+h2 {
+    color: #008A61;
+    letter-spacing: 2pt;
+}
+h3 {
+    color: #008A61;
+    letter-spacing: 1.5pt
+}
+h4 {
+    color: #008A61;
+    letter-spacing: 1.1pt;
+    text-align: center;
+}
+p {
+    color: rgb(0, 38, 25);
+}
+button {
+    border-radius: 5px;
+    background-color: lightgreen;
+    border-color:#008A61;
+}
+header {
+    font-size: xxx-large;
+    text-align: center;
+    color: #008A61;
+    letter-spacing: 4pt;
+}
+ol {
+    text-align: center;
+    font-size:larger;
+}
+img {
+    border-radius: 10px;
+    width: 350px;
+}
+#first {
+    background-color: rgb(0, 128, 0);
 }
 
-/* This defines styling for all your p elements */
+#second {
+    background-color: rgb(64, 160, 64);
+}
+#third {
+    background-color: rgb(100, 190, 100);
+}
+#fourth {
+    background-color: rgb(150, 220, 150);
+}
+#fifth {
+    background-color: rgb(200, 255, 200);
+}
+ul {
+    background-color: rgb(0, 128, 0);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+div {
+    background-color: rgb(0, 128, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.game-container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
 
-p {
-
+.game {
+  text-align: center;
 }
